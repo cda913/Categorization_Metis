@@ -22,9 +22,12 @@ Another feature in the dataset concerns a previous marketing campaign; most of t
 |---           |---           |---           |
 |**Actual No** | 5,633        |  73          |
 |**Actual Yes**|   581        | 144          |
+
 *Recall* = 0.1986
 
-Further exploration into recall looked at the class imbalance. Two quick class imbalance models were fitted. With all variables and no imbalance adjustment, recall is 0.341. With oversampling, recall goes up to 0.669. With SMOTE, recall is about the same at 0.643
+We can still increase our recall.
+
+Further exploration into recall looked at the class imbalance. Two quick class imbalance models were fitted. With all variables and no imbalance adjustment, recall is 0.341. With oversampling, recall goes up to 0.669. With SMOTE, recall drops to 0.434
 
 While SMOTE is noted to be problematic because of the assumption of the separable, convex categories, there are two features of this dataset that excuse these assumptions: 
 1. the non-yes points between the "yes" customers may be people who were not contacted in the other marketing campaign - that is "nonexistent" rather than "failure"
