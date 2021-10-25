@@ -28,7 +28,7 @@ Further exploration into recall looked at the class imbalance. Two quick class i
 
 While SMOTE is noted to be problematic because of the assumption of the separable, convex categories, there are two features of this dataset that excuse these assumptions: 
 1. the non-yes points between the "yes" customers may be people who were not contacted in the other marketing campaign - that is "nonexistent" rather than "failure"
-2. we have no evidence that marketing to people is correlated with them leaving from the bank. Thus, the non-yes points between "yes" customers have not been demonstrated to be a detriment to our marketing campaigns
+2. we have no evidence that marketing to people is correlated with them leaving from the bank; thus, the non-yes points between "yes" customers have not been demonstrated to be a detriment to our marketing campaigns
 
 ### To Do
 - Spend a little more time with models to see if any are more predictive than appear
